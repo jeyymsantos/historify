@@ -311,10 +311,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0205a1;
+  color: #c77e10;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3f43fd;
+  color: #d9711c;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -562,7 +562,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #1acc8d;
+  background: #c77e10;
   margin: 4px 10px;
 }
 .section-title p {
@@ -572,7 +572,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #c77e10;
 }
 
 /*--------------------------------------------------------------
@@ -637,7 +637,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #e89925;
+  color: #c77e10;
   margin-bottom: 15px;
 }
 .about .icon-box {
@@ -650,17 +650,17 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #7ceec6;
+  border: 2px solid #d9711c;
   border-radius: 50px;
   transition: 0.5s;
 }
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: #e89925;
   font-size: 32px;
 }
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: #d9711c;
+  border-color: #d9711c;
 }
 .about .icon-box:hover .icon i {
   color: #fff;
@@ -686,7 +686,7 @@ section {
 .about .video-box {
   background: url("../img/about.png") center center no-repeat;
   background-size: contain;
-  min-height: 300px;
+  max-height: 300px;
 }
 .about .play-btn {
   width: 94px;
@@ -785,7 +785,7 @@ section {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #f5f5ff;
+  background: #e89925;
   transition: ease-in-out 0.3s;
 }
 .features .icon-box i {
@@ -801,14 +801,14 @@ section {
   font-size: 16px;
 }
 .features .icon-box h3 a {
-  color: #010483;
+  color: #fff;
   transition: ease-in-out 0.3s;
 }
 .features .icon-box h3 a:hover {
-  color: #01036f;
+  color: #fff;
 }
 .features .icon-box:hover {
-  background: #ebebff;
+  background: #d9711c;
 }
 
 /*--------------------------------------------------------------
