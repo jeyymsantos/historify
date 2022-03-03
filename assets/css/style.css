@@ -399,6 +399,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -864,7 +867,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: #c77e10;
 }
 .details .content ul {
   list-style: none;
@@ -876,10 +879,92 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1acc8d;
+  color: #c77e10;
 }
 .details .content p:last-child {
   margin-bottom: 0;
+}
+
+.details h3 {
+  color: #727272;
+}
+
+/* Btn */
+
+#details .btn-ancient {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #e89925;
+}
+
+#details .btn-ancient:hover {
+  color: #fff;
+  background: #d9711c;
+}
+
+#details .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+#details .btn-middle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #9e9e9e;
+}
+
+#details .btn-middle:hover {
+  color: #fff;
+  background: #6e6e6e;
+}
+
+#details .btn-modern {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #5456f0;
+}
+
+#details .btn-modern:hover {
+  color: #fff;
+  background: #1b2dd1;
+}
+
+#details .btn-filipino {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: rgb(185, 21, 21);
+}
+
+#details .btn-filipino:hover {
+  color: #fff;
+  background: rgb(146, 15, 15);
 }
 
 /*--------------------------------------------------------------
