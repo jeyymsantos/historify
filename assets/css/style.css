@@ -1107,7 +1107,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #01036f;
+  color: #d9711c;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1117,7 +1117,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #0d12fc;
+  background: #b4580d;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1125,7 +1125,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #01036f;
+  color: #b4580d;
 }
 .team .member .social {
   margin-top: 10px;
@@ -1434,7 +1434,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: #A1624A;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1444,9 +1444,9 @@ section {
 }
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: #cc9179;
   color: #fff;
-  border-top: 4px solid #1acc8d;
+  border-top: 4px solid #e89925;
   text-align: center;
   padding: 30px 20px;
 }
