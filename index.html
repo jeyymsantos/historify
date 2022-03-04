@@ -211,32 +211,32 @@
           <div class="col-lg-3 col-md-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
               <i class="ri-store-line" style="color: #fff;"></i>
-              <h3><a href="">Ancient Period</a></h3>
+              <h3><a href="#ancient">Ancient Period</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <i class="ri-bar-chart-box-line" style="color: #fff;"></i>
-              <h3><a href="">Middle Period</a></h3>
+              <h3><a href="#middle">Middle Period</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
               <i class="ri-calendar-todo-line" style="color: #fff;"></i>
-              <h3><a href="">Modern Period</a></h3>
+              <h3><a href="#modern">Modern Period</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box filipino" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #fff;"></i>
-              <h3><a href="">Filipino Scientists</a></h3>
+              <h3><a href="#filipino">Filipino Scientists</a></h3>
             </div>
           </div>
         </div>
 
       </div>
     </section><!-- End Features Section -->
-
+      <div id="ancient"></div>
      </div>
     </section><!-- End Counts Section -->
 
@@ -244,7 +244,7 @@
     <section id="details" class="details">
       <div class="container">
 
-        <div class="row content">
+        <div class="row content" >
           <div class="col-md-4" data-aos="fade-right">
             <img src="assets/img/details-1.png" class="img-fluid animated" alt="">
           </div>
@@ -257,13 +257,13 @@
             </p>
 
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-ancient scrollto">Learn More about Ancient Period</a>
+              <a href="#about" class="btn-ancient scrollto" id="middle">Learn More about Ancient Period</a>
             </div>
 
           </div>
         </div>
 
-        <div class="row content">
+        <div class="row content" >
           <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
             <img src="assets/img/details-2.png" class="img-fluid animated" alt="">
           </div>
@@ -276,12 +276,12 @@
             </p>
             
             <div class="text-center text-lg-start">
-              <a href="#about" class="btn-middle scrollto">Learn More about Middle Period</a>
+              <a href="#about" class="btn-middle scrollto" id="modern">Learn More about Middle Period</a>
             </div>
           </div>
         </div>
 
-        <div class="row content">
+        <div class="row content" >
           <div class="col-md-4" data-aos="fade-right">
             <img src="assets/img/details-3.png" class="img-fluid animated" alt="">
           </div>
@@ -293,7 +293,7 @@
               <br> <br> <i>Click the button below to discover and learn more!</i>
             </p>
 
-            <div class="text-center text-lg-start">
+            <div class="text-center text-lg-start"  id="filipino">
               <a href="#about" class="btn-modern scrollto">Learn More about Modern Period</a>
             </div>
           </div>
@@ -519,7 +519,20 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    $(document).ready(function(){
+    $('.modal').each(function(){
+            var src = $(this).find('iframe').attr('src');
 
+        $(this).on('click', function(){
+
+            $(this).find('iframe').attr('src', '');
+            $(this).find('iframe').attr('src', src);
+
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
