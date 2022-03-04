@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: rgba(79, 61, 55, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #1acc8d;
+  color: #e89925;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
