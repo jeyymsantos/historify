@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #6dbdff;
+  color: #cf2987;
   text-decoration: none;
 }
 
@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #d9711c;
-  border-top-color: #e4b876;
+  border: 6px solid #205084;
+  border-top-color: #519be9;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e89925;
+  background: #5456f0 ;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #d9711c;
+  background: #1b2dd1;
   color: #fff;
 }
 .back-to-top.active {
@@ -118,13 +118,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(124, 124, 124, 0.9);
+  background: rgba(32, 80, 132, 0.9);
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgba(124, 124, 124, 0.9);
+  background: rgba(32, 80, 132, 0.9);
   height: 60px;
 }
 #header .logo h1 {
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #9e9e9e;
+  background-color: #cf2987;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #aaaaaa;
+  color: #cf2987;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(107, 104, 104, 0.91);
+  background: rgba(32, 80, 132, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #6dbdff;
+  border-bottom: 4px solid #cf2987;
 }
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
@@ -389,12 +389,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #000;
-  background: #6dbdff;
+  color: #fff;
+  background: #B01A6E;
 }
 #hero .btn-get-started:hover {
-  color: #000;
-  background: #9cd2ff;
+  color: #fff;
+  background: #cf2987;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -537,7 +537,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Modal */
 .modal .bg-rhino {
-  background-color: #737171 !important;
+  background-color: #205084 !important;
 }
 
 .modal .btn-get-started {
@@ -549,13 +549,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #000;
-  background: #6dbdff;
+  color: #fff;
+  background: #B01A6E;
 }
 
 .btn-get-started:hover {
-  color: #000;
-  background: #9cd2ff;
+  color: #fff;
+  background: #cf2987;
 }
 
 /*--------------------------------------------------------------
@@ -581,7 +581,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #cf2987;
   font-family: "Poppins", sans-serif;
 }
 .section-title h2::after {
@@ -589,7 +589,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #9e9e9e;
+  background: #205084;
   margin: 4px 10px;
 }
 .section-title p {
@@ -599,7 +599,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #707070;
+  color: #B01A6E;
 }
 
 /*--------------------------------------------------------------
@@ -818,13 +818,13 @@ section {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #000;
-  background: #6dbdff;
+  color: #fff;
+  background: #B01A6E;
 }
 
 .features .btn-middle:hover {
-  color: #000;
-  background: #9cd2ff;
+  color: #fff;
+  background: #cf2987;
 }
 
 .features .icon-box {
@@ -904,6 +904,11 @@ section {
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/
+
+.colored b {
+  color: #B01A6E;
+}
+
 .details .content + .content {
   margin-top: 100px;
 }
@@ -1150,7 +1155,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #d9711c;
+  color: #205084;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1160,7 +1165,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #b4580d;
+  background: #1b2dd1;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1168,7 +1173,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #b4580d;
+  color: #1b2dd1;
 }
 .team .member .social {
   margin-top: 10px;
@@ -1477,7 +1482,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #A1624A;
+  background: #205084;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
